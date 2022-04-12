@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="networkImage"
+            type="String" />
+        <variable
+            name="article"
+            type="com.nsxz.lakesi.model.Article" />
+
+    </data>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/ivHead"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:image="@{networkImage}" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            tools:text="这里是标题"
+            android:text="@{article.title}"/>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.HomeFragment">
+
+
+
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLOW AND DOWNLOAD" />
+
+    <Button
+        android:id="@+id/btnRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLOW AND ROOM" />
+
+    <Button
+        android:id="@+id/btnRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLOW AND RETROFIT" />
+
+    <Button
+        android:id="@+id/btnStateflow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STATEFLOW" />
+
+    <Button
+        android:id="@+id/btnSharedFlow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHAREDFLOW" />
+
+    <Button
+        android:id="@+id/btnPaging3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAGING3" />
+
+</LinearLayout>
